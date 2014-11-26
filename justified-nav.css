@@ -65,6 +65,11 @@ p {
   font-size: 15px;
 }
 
+li {
+  font-size: 15px;
+  font-weight: bold;
+}
+
 @media (min-width: 768px) {
   .nav-justified {
     max-height: 52px;
