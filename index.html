@@ -26,33 +26,62 @@
 
   <body>
 
-    <div class="container">
+    <!-- <div class="container"> -->
 
-    <div class="masthead navbar-fixed-top">
-        <div role="navigation">
-            <ul class="nav nav-justified">
-            <!-- <li class="active"><a href="#">Home</a></li> -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Yuanyang Zhang</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
             <li><a href="#">Home</a></li>
             <li><a href="#research">Projects</a></li>
             <li><a href="#papers">Publications</a></li>
             <li><a href="#courses">Courses</a></li>
             <li><a href="#news">News</a></li>
-            <!-- <li><a href="#">Contact</a></li> -->
-            </ul>
-        </div>
-    </div>
+            <!-- <li class="dropdown"> -->
+              <!-- <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a> -->
+              <!-- <ul class="dropdown-menu" role="menu"> -->
+                <!-- <li><a href="#">Action</a></li> -->
+                <!-- <li><a href="#">Another action</a></li> -->
+                <!-- <li><a href="#">Something else here</a></li> -->
+                <!-- <li class="divider"></li> -->
+                <!-- <li class="dropdown-header">Nav header</li> -->
+                <!-- <li><a href="#">Separated link</a></li> -->
+                <!-- <li><a href="#">One more separated link</a></li> -->
+              <!-- </ul> -->
+            <!-- </li> -->
+          </ul>
+          <!-- <ul class="nav navbar-nav navbar-right"> -->
+            <!-- <li><a href="../navbar/">Default</a></li> -->
+            <!-- <li><a href="../navbar-static-top/">Static top</a></li> -->
+            <!-- <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li> -->
+          <!-- </ul> -->
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
 
       <!-- Jumbotron -->
       <div class="jumbotron">
+        <div class="container">
         <h1>Welcome to my homepage!</h1>
         <p class="lead">I am Yuanyang Zhang, a computer science Ph.D. student from University of California, Santa Barbara.</p>
         <p><a class="btn btn-lg btn-success" href="mailto:zhangyy1209@gmail.com" role="button">Shoot me an Email</a></p>
+        </div>
       </div>
 
       <!-- Example row of columns -->
+      <div class="container">
       <div class="row">
 
-        <div class="col-lg-4">
+        <div class="col-sm-4">
           <p><img src="files/yy.jpg" alt="mypic" width="280" class="img-circle" /></p>
           <a name="news"></a>
           <h2>Yuanyang Zhang</h2>
@@ -71,7 +100,7 @@
           <!-- <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p> -->
        </div>
 
-        <div class="col-lg-8">
+        <div class="col-sm-8">
           <h2>Personal Information</h2>
           <p class="text-justify">I am <strong>Yuanyang Zhang</strong>, a computer science Ph.D. 
           student in University of California, Santa Barbara. 
@@ -177,6 +206,7 @@
               <p>Topics about deep learning, Bayesian optimization, scaling machine learning.</p>
           </ul>
 
+        </div>
         </div>
 
       </div>
